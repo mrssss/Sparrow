@@ -2,7 +2,7 @@
 
 void hello_world();
 
-TEST(Init, HelloWorld)
+TEST(Basic_0_Init, HelloWorld)
 {
     testing::internal::CaptureStdout();
     hello_world();
