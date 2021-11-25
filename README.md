@@ -7,9 +7,9 @@ This repository is for logging some ideas about C++ during daily learning and wo
 ### Download this repository
 
 ```shell
-git clone https://github.com/google/googletest.git
+git clone https://github.com/mrssss/Sparrow.git
 # or using ssh connection, it requires to configure ssh key before cloning.
-git@github.com:google/googletest.git
+git@github.com:mrssss/Sparrow.git
 ```
 
 This repo depends on some third party libraries. Use this command to download them.
