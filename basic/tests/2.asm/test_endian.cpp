@@ -11,7 +11,7 @@ TEST(Basic_2_Assembly, Endian)
     std::string output = testing::internal::GetCapturedStdout();
 
     if (little)
-        EXPECT_EQ(output, "This machine is in big endian order\n");
-    else
         EXPECT_EQ(output, "This machine is in little endian order\n");
+    else
+        EXPECT_EQ(output, "This machine is in big endian order\n");
 }
