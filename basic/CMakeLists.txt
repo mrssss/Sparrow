@@ -20,6 +20,7 @@ target_sources(basic_check
         2.asm/add.s
         2.asm/endian_order.c
         2.asm/endian_order.s
+        2.asm/swap.s
 )
 
 target_sources(basic_check
@@ -28,6 +29,7 @@ target_sources(basic_check
         tests/1.comment/test_comment.cpp
         tests/2.asm/test_add.cpp
         tests/2.asm/test_endian.cpp
+        tests/2.asm/test_swap.cpp
 )
 
 target_link_libraries (basic_check
