@@ -21,6 +21,7 @@ target_sources(basic_check
         2.asm/endian_order.c
         2.asm/endian_order.s
         2.asm/swap.s
+        2.asm/equivalent.s
         3.number/bool_op.cpp
 )
 
@@ -31,6 +32,7 @@ target_sources(basic_check
         tests/2.asm/test_add.cpp
         tests/2.asm/test_endian.cpp
         tests/2.asm/test_swap.cpp
+        tests/2.asm/test_is_equal.cpp
         tests/3.number/test_bool_op.cpp
 )
 
