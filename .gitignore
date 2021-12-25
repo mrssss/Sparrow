@@ -33,3 +33,5 @@
 
 build/
 .null.cpp
+.vscode/
+
