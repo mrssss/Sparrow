@@ -11,3 +11,4 @@ include (cmake/ccache.cmake)
 add_subdirectory(third_party)
 
 add_subdirectory(basic)
+add_subdirectory(numerical_analysis)
