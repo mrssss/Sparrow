@@ -21,7 +21,7 @@ target_link_libraries(flatbuffer_writter
 )
 
 add_executable(flatbuffer_reader)
-add_dependencies( flatbuffer_writter flatbuffers_schema )
+add_dependencies( flatbuffer_reader flatbuffers_schema )
 
 target_sources(flatbuffer_reader
     PRIVATE
