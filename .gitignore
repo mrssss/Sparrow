@@ -34,4 +34,5 @@
 build/
 .null.cpp
 .vscode/
+build_leetcode/
 

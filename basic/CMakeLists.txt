@@ -36,7 +36,7 @@ target_sources(basic_check
         tests/3.number/test_bool_op.cpp
 )
 
-target_link_libraries (basic_check
+target_link_libraries(basic_check
     PRIVATE
         GTest::gtest
         GTest::gtest_main
