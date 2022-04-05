@@ -10,6 +10,7 @@ option(ENABLE_BASIC "Enable build basic" OFF)
 option(ENABLE_NUMERICAL_ANALYSIS "Enable numerical analysis" OFF)
 option(ENABLE_EXAMPLE "Enable building examples" OFF)
 option(ENABLE_LEETCODE "Enable building leetcode" OFF)
+option(ENABLE_DATA_STRUCTURE "Enable building data structure" OFF)
 
 include (cmake/ccache.cmake)
 
@@ -30,3 +31,7 @@ endif() # ENABLE_EXAMPLE
 if(ENABLE_LEETCODE)
     add_subdirectory(leetcode)
 endif() # ENABLE_LEETCODE
+
+if(ENABLE_DATA_STRUCTURE)
+    add_subdirectory(data_structure)
+endif() # ENABLE_DATA_STRUCTURE
